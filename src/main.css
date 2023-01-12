@@ -1,0 +1,8 @@
+:root {
+  --negro: #393939;
+  --red: #e60012; 
+  --gray: #484848;
+
+  /* Tipografía */
+  --tipo-principal: 'museo-sans','Open Sans', sans-serif;
+}
