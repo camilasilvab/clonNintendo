@@ -102,3 +102,41 @@ body {
   /* opcional */
   -moz-osx-font-smoothing: grayscale;
 }
+
+nav {
+  background-color: coral;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_container {
+  background-color: aquamarine;
+
+  display: flex;
+
+}
+
+.logo_container {
+  background-color: aqua;
+
+}
+
+.logo {
+  background-color: #e60012;
+}
+
+.search {
+  background-color: #ad8d8d;
+}
+
+.support_container {
+  background-color: #803e44;
+
+  display: flex;
+
+}
+
+.support_link {
+  background-color: rgb(93, 93, 255);
+}
