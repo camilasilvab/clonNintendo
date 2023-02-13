@@ -103,7 +103,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-nav {
+.header_container {
   background-color: coral;
 
   display: flex;
