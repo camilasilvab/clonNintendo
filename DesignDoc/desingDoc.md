@@ -52,10 +52,11 @@ Para usar la API necesito crear un proyecto en Google Cloud y habilitar Cloud Tr
 
 ### Obtener 
 Debemos instalar la libreria 
-
+```
 {
   npm install @google-cloud/translate
 }
+```
 
 ### Traducir textos 
 Una vez instalada la libreria, 
@@ -89,6 +90,55 @@ ejemplo de para iniciar la tracucción
 ```
 
 ## Consideraciones
-- La API es gratis hasta cierto punto.
-- Se debe crear un proyecto en Google cloud para poder usar la API 
+- Es limitada ya que en la version gratuita permite usar solo 500 caracteres al mes.
+
+## Solución 2
+
+## Text translator
+
+Para hacer la petición de la API  https://text-translator2.p.rapidapi.com/translate
+
+### Obtener  
+
+```
+{
+  const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '74d16d8dcdmshb4b433c4d019ad3p1147ecjsnb61e1a9497cc',
+		'X-RapidAPI-Host': 'text-translator2.p.rapidapi.com'
+	}
+};
+
+fetch('https://text-translator2.p.rapidapi.com/getLanguages', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
+}
+
+```
+### Traducir textos 
+
+```
+{
+  const encodedParams = new URLSearchParams();
+  encodedParams.append("source_language", "en");
+  encodedParams.append("target_language", "id");
+  encodedParams.append("text", "What is your name?");
+
+  const options = {
+	  method: 'POST',
+	  headers: {
+		  'content-type': 'application/x-www-form-urlencoded',
+		  'X-RapidAPI-Key': '74d16d8dcdmshb4b433c4d019ad3p1147ecjsnb61e1a9497cc',
+		  'X-RapidAPI-Host': 'text-translator2.p.rapidapi.com'
+	  },
+	  body: encodedParams
+  };
+
+  fetch('https://text-translator2.p.rapidapi.com/translate', options)
+	  .then(response => response.json())
+	  .then(response => console.log(response))
+	  .catch(err => console.error(err));
+}
 
