@@ -103,40 +103,61 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.header_container {
-  background-color: coral;
+/* ________________________________________ */
 
-  display: flex;
-  justify-content: space-between;
+
+.header {
+
 }
-
-.search_container {
+.header__nav {
   background-color: aquamarine;
 
   display: flex;
 
 }
-
-.logo_container {
-  background-color: aqua;
+.logo__container {
+  background-color: rgb(53, 74, 67);
+}
+.logo__img {
 
 }
 
-.logo {
+.header__form {
   background-color: #e60012;
 }
-
-.search {
-  background-color: #ad8d8d;
+.form__search {
+  background-color: #d15863;
 }
-
-.support_container {
-  background-color: #803e44;
-
-  display: flex;
+.search__icon {
 
 }
+.search__input {
+  background-color: #85232b;
+}
 
-.support_link {
-  background-color: rgb(93, 93, 255);
+.form__categories {
+  background-color: #4b161a;
+}
+.categories__container {
+
+}
+.categories__options {
+
+}
+.categories__icon {
+
+}
+
+.header__links {
+  background-color: blue;
+}
+.links--support {
+  background-color: blueviolet;
+}
+.login__btn {
+  background-color: darkgray;
+}
+
+.header__btns {
+  background-color: orangered;
 }
