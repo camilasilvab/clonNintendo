@@ -308,8 +308,9 @@ body {
 .hero__banner {
   display: flex;
   justify-content: space-between;
-  padding: 4em 5em 5em 5em;
+  padding: 4em 5em 5em 3em;
   border-bottom: 1px solid #d2d2d2;
+  background-color: white;
 }
 .banner__button {
   display: flex;
@@ -358,23 +359,26 @@ body {
 .featured__container {
   display: flex;
   flex-direction: column;
-  padding-left: 4em;
+  padding-left: 3em;
+  background-color: white;
 }
 .featured__container h2 {
-  padding-left: .5em;
+  padding-left: .1em;
   margin-top: 2.6em;
   font-size: 2.8rem;
   font-weight: 600;
 }
 .featured {
   display: flex;
+  overflow-x: scroll;
+  scroll-snap-align: center;
 }
 
 .featured__card {
   display: flex;
   flex-direction: column;
-  width: 261px;
-  margin: 35px 20px;
+  min-width: 261px;
+  margin: 35px 18px;
   border: 1px solid #cdcdcd;
   border-radius: 5px;
   overflow: hidden;
