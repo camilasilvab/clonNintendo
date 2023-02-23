@@ -106,6 +106,7 @@ body {
 
 /* ________________________________________ */
 
+/*_________________ Header ___________ */
 
 .header {
   display: flex;
@@ -273,6 +274,11 @@ body {
   border-color: var(--red);
 }
 
+/* ________________________________________ */
+
+
+/* _____________ Hero _____________________ */
+
 .hero {
   padding-top: 10em;
 }
@@ -355,6 +361,10 @@ body {
   padding-top: .4em;
   border-top: 1px solid var(--negro);
 }
+/* ________________________________________ */
+
+
+/*________ Featured Section ________________ */
 
 .featured__container {
   display: flex;
@@ -408,4 +418,14 @@ body {
   font-weight: 100;
   color: #484848;
   border-left: 2.5px solid var(--red);
+}
+
+/* ________________________________________ */
+
+
+/* _________ Game store Section ___________ */
+
+
+.text--GameStore {
+  font-size: 1.8rem;
 }
