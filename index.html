@@ -37,7 +37,9 @@
               <option class="categories__options">Noticias y eventos</option>
               <option class="categories__options">Soporte</option>
             </select>
-            <i class="icon--arrow"></i>
+            <svg  width="20" height="18" size="18" viewBox="0 0 32 32" class="icon--arrow icon--btn">
+              <path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M27.7 5.3L32 9.8 16 26.7 0 9.8l4.3-4.5L16 17.7z"></path>
+            </svg>
           </div>        
         </form>
       </div>
@@ -77,7 +79,9 @@
           </svg>
         </span>
         <span class="btns__text">Juegos</span>
-        <i class="icon--arrow icon--btn"></i>
+        <svg  width="20" height="18" size="18" viewBox="0 0 32 32" class="icon--arrow icon--btn">
+          <path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M27.7 5.3L32 9.8 16 26.7 0 9.8l4.3-4.5L16 17.7z"></path>
+        </svg>
       </button>
       <button class="btns--menu">
         <span class="btns__icon">
@@ -86,7 +90,9 @@
           </svg>
         </span>
         <span class="btns__text">Nintendo Switch</span>
-        <i class="icon--arrow icon--btn"></i>
+        <svg  width="20" height="18" size="18" viewBox="0 0 32 32" class="icon--arrow icon--btn">
+          <path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M27.7 5.3L32 9.8 16 26.7 0 9.8l4.3-4.5L16 17.7z"></path>
+        </svg>
       </button>
       <button class="btns--menu btns--news">
         <span class="btns__icon">
@@ -95,6 +101,7 @@
           </svg>
         </span>     
         <span class="btns__text ">Noticias y eventos</span>
+        
       </button>
     </section>
   </header>
@@ -291,76 +298,80 @@
       </div>
     </div>
 
-    <Section class="news__container">
+    <Section class="news__section">
+      <h2>Novedades</h2>
 
-      <article class="news__article article-a">
-        <picture class="article__img">
-          <img src="" alt="" >
-        </picture>
-        <p class="article__date">24/02/23</p>
-        <h3 class="article__title">Embárcate en una aventura con ocho viajeros nuevos en OCTOPATH TRAVELER II</h3>
-        <p>¡Qué mal! ¡La nave de Maglor se estrelló y ahora necesita tu ayuda! Únete a Kirby y sus aliados mientras se enfrentan en una aventura de plataformas</p>
-        <a href="" class="article__link">
-          <span>Leer más</span>
-        </a>
-      </article>
+      <div class="news__container">
+        <div class="news__article-principal article-a">
+          <picture class="article__img-principal">
+            <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_600/ncom/en_US/articles/2023/castlevania-vs-dead-cells-take-on-dracula-in-this-dead-cells-dlc/2250x1266_DeadCells-CastlevaniaDLC_1280x720" alt="Castlevania vs. Dead Cells" >
+          </picture>
+          <p class="article__date">06/03/23</p>
+          <h3 class="article__title-principal">¡¿Castlevania vs. Dead Cells?! ¡Enfréntate a Drácula en esta expansión para Dead Cells!</h3>
+          <p class="article__description-principal">¿Te resultan un poco conocidos esos corredores antiguos? ¿Es aquel un cúmulo miserable de secretos? Un portal hacia un icónico castillo aparece repentinamente, y un imponente guerrero llamado </p>
+          <a href="" class="article__link">
+            <span>Leer más</span>
+          </a>
+        </div>
+  
+        <article class="news__article-principal article-b">
+          <picture class="article__img-principal">
+            <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_600/ncom/en_US/articles/2023/upgrade-your-arsenal-with-icon-elements-inspired-by-the-metroid-prime-remastered-game-for-a-limited-time/LHA-938-1920x1080-MPicons-BothWaves-SP_v02" alt="Juegos Metroid Prime Remastered" >
+          </picture>
+          <p class="article__date">03/03/23</p>
+          <h3 class="article__title-principal">Mejora tu arsenal con artículos icónicos inspirados en los juegos Metroid Prime Remastered (disponible por tiempo limitado)</h3>
+          <p class="article__description-principal">¿Quieres renovar tu ícono de usuario? Canjea tus My Nintendo™ puntos de platino por recompensas exclusivas, ¡incluyendo elementos para íconos que te ayudarán a darle un nuevo aspecto a tu ícono de usuario! Los elementos para íconos del juego Metroid Prime Remastered estarán disponibles durante este periodo:</p>
+          <a href="" class="article__link">
+            <span>Leer más</span>
+          </a>
+        </article>
+  
+        <article class="news__article article-c">
+          <picture class="article__img">
+            <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_300/ncom/en_US/articles/2023/add-more-to-your-gameplay-with-paid-dlc/2250x1266_FeaturedDLC_SP" alt="" >
+          </picture>
+          <p class="article__date">24/02/23</p>
+          <h3 class="article__title">Deja que estos amistosos felinos participen en tus aventuras</h3>
+          <a href="" class="article__link">
+            <span>Leer más</span>
+          </a>
+        </article>
+  
+        <article class="news__article article-d">
+          <picture class="article__img">
+            <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_300/ncom/en_US/articles/2023/splatoon-3-dive-into-a-fresh-new-season-and-newly-launched-dlc/2250x1266_Ncom_SP3_SP" alt="" >
+          </picture>
+          <p class="article__date">24/02/23</p>
+          <h3 class="article__title">Pon a prueba Katamari Damacy REROLL, ¡el más reciente juego de muestra!</h3>
+          <a href="" class="article__link">
+            <span>Leer más</span>
+          </a>
+        </article>
+  
+        <article class="news__article article-e">
+          <picture class="article__img">
+            <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_300/ncom/en_US/articles/2023/nintendo-switch-sports-weekly-rewards/20230302/NSS_Header_Week46_Global" alt="" >
+          </picture>
+          <p class="article__date">24/02/23</p>
+          <h3 class="article__title">Experimenta el clásico juego de rol Tales of Symphonia con gráficos y mecánica de juego mejorados</h3>
+          <a href="" class="article__link">
+            <span>Leer más</span>
+          </a>
+  
+        </article>
+  
+        <article class="news__article article-f">
+          <picture class="article__img">
+            <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_300/ncom/en_US/articles/2023/the-tough-puff-is-back-in-kirbys-return-to-dream-land-deluxe/2250x1266_KirbyNow" alt="" >
+          </picture>
+          <p class="article__date">24/02/23</p>
+          <h3 class="article__title">¡La poderosa bola rosada está de vuelta en Kirby’s Return to Dream Land Deluxe!</h3>
+          <a href="" class="article__link">
+            <span>Leer más</span>
+          </a>
+        </article>
+      </div>
 
-      <article class="news__article article-b">
-        <picture class="article__img">
-          <img src="" alt="" >
-        </picture>
-        <p class="article__date">24/02/23</p>
-        <h3 class="article__title">Premios disponibles en el juego: Semana del 23 de febrero de 2023</h3>
-        <p>Sumérgete en el mundo de Solistia, una tierra dividida por el mar que abarca un continente oriental y occidental. Explora los entornos del mundo de</p>
-        <a href="" class="article__link">
-          <span>Leer más</span>
-        </a>
-      </article>
-
-      <article class="news__article article-c">
-        <picture class="article__img">
-          <img src="" alt="" >
-        </picture>
-        <p class="article__date">24/02/23</p>
-        <h3 class="article__title">Deja que estos amistosos felinos participen en tus aventuras</h3>
-        <a href="" class="article__link">
-          <span>Leer más</span>
-        </a>
-      </article>
-
-      <article class="news__article article-d">
-        <picture class="article__img">
-          <img src="" alt="" >
-        </picture>
-        <p class="article__date">24/02/23</p>
-        <h3 class="article__title">Pon a prueba Katamari Damacy REROLL, ¡el más reciente juego de muestra!</h3>
-        <a href="" class="article__link">
-          <span>Leer más</span>
-        </a>
-      </article>
-
-      <article class="news__article article-e">
-        <picture class="article__img">
-          <img src="" alt="" >
-        </picture>
-        <p class="article__date">24/02/23</p>
-        <h3 class="article__title">Experimenta el clásico juego de rol Tales of Symphonia con gráficos y mecánica de juego mejorados</h3>
-        <a href="" class="article__link">
-          <span>Leer más</span>
-        </a>
-
-      </article>
-
-      <article class="news__article article-f">
-        <picture class="article__img">
-          <img src="" alt="" >
-        </picture>
-        <p class="article__date">24/02/23</p>
-        <h3 class="article__title">¡La poderosa bola rosada está de vuelta en Kirby’s Return to Dream Land Deluxe!</h3>
-        <a href="" class="article__link">
-          <span>Leer más</span>
-        </a>
-      </article>
 
       <button class="banner__btn articles__btn">
         <svg width="20" height="18" size="18" viewBox="0 0 32 32">
@@ -368,7 +379,6 @@
         </svg>
         <span>Ver todos los artículos de noticias</span>
       </button>
-
     </Section>  
 
   </main>
